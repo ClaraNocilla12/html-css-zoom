@@ -9,18 +9,21 @@ body{
    background-color: rgb(0, 0, 0);
    
 }
+.col-white{
+    color:white;
+}
 
 header{
     height: 5%;
     background-color: #fff;
     margin-top:0.5%;
     position:relative;
-   color:white;
+   
     background-color: rgb(0, 0, 0);
 }
 
 .absolute{
- position:absolute;
+    position:absolute;
     right:0;
     margin-top: 1%;
 }
@@ -54,9 +57,31 @@ header{
    display:flex;
     margin-bottom:2px;
     justify-content: space-between;
-    
+  
     
 }
+
+.bg{
+    background-image: url(https://picsum.photos/id/1022/350/200);
+    height: 100%;
+    width:calc((100% / 7) - 3px);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.bg div{
+    color:white;
+    position:absolute;
+    bottom:0;
+    background-color: rgba(167, 167, 167, 0.301);
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+
+
+
 
 
 
@@ -64,11 +89,71 @@ header{
 /*FOOTER*/
 
 footer{
-    background-color: rgb(124, 119, 119);
+    background-color: rgb(61, 61, 61);
     height: 8%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.l-foot{
+    justify-content: space-around;
+    display: flex;
+    height: 100%;
+    width: 15%;
+   
+align-items: center;
+
+}
+
+.c-foot{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    
+}
+
+
+
+.r-foot{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 100%;
+    width: 7%;
+    background-color: rgb(105, 105, 105);
+    
+}
+
+
+.r-foot div{
+    color:red;
+    font-size: 0.8rem;
+     padding:5%;
 
 }
 
 
 
+footer div .box i{
+    padding:10px 0;
+    transform: scale(1.8);
+    margin-left:30%;
+    
+}
 
+footer div .box{
+  
+    font-size: 0.8em;
+}
+
+.fa-angle-up{
+    font-size: 0.6em;
+    
+} 
+
+#green{
+    color:rgb(3, 196, 3);
+}
